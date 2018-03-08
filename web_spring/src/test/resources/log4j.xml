@@ -31,7 +31,11 @@
 	<logger name="org.springframework.web">
 		<level value="info" />
 	</logger>
-
+	
+	<logger name="javax.websocket">
+		<level value="info"/>
+	</logger>
+	
 	<!-- Root Logger -->
 	<root>
 		<priority value="info" />
